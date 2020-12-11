@@ -1,9 +1,10 @@
 {
   "name": "curso-platzi-react-avanzado",
   "version": "1.0.0",
-  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+  "description": "Proyecto educativo basado en los archivos de @midudev profesor del curso de React Avanzado en Platzi",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "npm run build",
     "build": "webpack",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1",
